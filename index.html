@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="da" xml:lang="da">
+
+<head>
+  <!-- charset og encoding for at den kan læse å ø æ -->
+  <meta charset="utf-8" />
+  <!-- Dette giver browseren instruktioner om, hvordan jeg styrer sidens dimensioner og skalering. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Social media icons hentes fra fontawesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Eksternal css fil kaldes her -->
+  <link rel="stylesheet" href="style.css">
+  <!-- angiver title for HTML siden som visses I browser bar. -->
+  <title> Odense Højskoleforening </title>
+</head>
+
+<body>
+<header>
+  <nav>
+    <!-- Her defineres nav logo, og en checkbox input til at vise og skjule header -->
+    <i class="fa fa-bars iconMenu" onclick="myFunction()"></i>
+    <span class="logo"><a href="index.html"> LOGO </a></span>
+    <!--Unordered list og dens list items -->
+    <ul>
+     <li><a href="blivmedlem.html">Bliv Medlem</a></li>
+      <li><a href="Kalender.html">Kalender</a></li>
+      <li><a href="OmOs.html">Om os</a></li>
+      
+     
+    </ul>
+   </nav>
+</header>
+  <!-- Banner defineres her -->
+  <section class="banner">
+    <div class="content">
+      <h1></h1>
+
+      <a href="OmOs.html" class="btn">OM OS</a>
+    </div>
+  </section>
+
+  <!-- Om Os-->
+  <section class="omOs">
+   <div class="contentOs">
+     <h2 class="title"> Nyheder</h2>
+
+     <p class="bodyTxt">
+     <p></p>
+     <div class="wrapper">
+       <div class="card-members">
+         <div class="card-members">
+           <div class="imgSize">
+             <img src="https://images.unsplash.com/photo-1495020689067-958852a7765e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=869&q=80" alt="screaming crowd">
+           </div>
+         </div>
+         <div>
+
+         </div>
+       </div>
+       <div class="card-members">
+         <div class="card-body-members">
+           <div class="imgSize">
+             <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" alt="Meeting room">
+           </div>
+         </div>
+         <div>
+
+         </div>
+       </div>
+       <div class="card-members">
+         <div class="card-body-members">
+           <div class="imgSize">
+             <img src="https://images.unsplash.com/photo-1633114072836-15d933c6d3a7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Handshake">
+           </div>
+         </div>
+
+
+     </div>
+
+   </div>
+
+
+ </section>
+
+<!-- Medlemmer -->
+  <section class="medlemmer">
+    <h2 class="title2">Medlemmer</h2>
+    <p class="projekttext">Her har vi nogle af vores bestyrelsesmedlemmer som vi synes alle skal have æren af at kende</br>
+    </p>
+    <div class="wrapper">
+      <!--- Carousel -->
+      <div class="carousel-container">
+      <!-- Pictures -->
+      <div class="mySlides fade">
+        <div class="numbertext"> </div>
+          <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" style="width:100%">
+          <div class="textpic" >Sussy Jensen</div>
+       </div>
+        <div class="mySlides fade">
+          <div class="numbertext" ></div>
+          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" style: width="100%">
+          <div class="textpic" >Erik Hansen</div>
+        </div>
+        <div class="mySlides fade">
+          <div class="numbertext" > </div>
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=387&q=80" style: width="100%">
+          <div class="textpic" >Pernille Jensen</div>
+        </div>
+          <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)"> </a>
+        <a class="next" onclick="plusSlides(1)"> </a>
+      </div>
+      <br>
+
+
+    </div>
+ <!-- Circles at the bottom -->
+ <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+  </section>
+  <!-- Kontakt os section defineres her -->
+  <section class="kontakt">
+    <h2 class="title2 cWhite">Kontakt Os</h2>
+    <hr class="hr">
+    <p class="cWhite txt">For yderligere info så smid endelig en mail! Vi vender altid tilbage så hurtigt vi kan.</br> Man er også velkommen til at ringe eller tage kontakt til os via de Sociale medier.
+    </p>
+    <div class="wrapper">
+      <div class="card">
+        <div class="card-body">
+          <i class="fa fa-phone"></i>
+          <h2>Telefon: </h2>
+          <span class="kontaktinfo"> 61 60 54 07</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <i class="fa fa-envelope"></i>
+          <h2>Email</h2>
+          <span class="kontaktinfo"> kasserer@oh-odense.dk</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer defineres her -->
+  <footer>
+    <div class="footer-content">
+      <ul class="socials">
+        <li><a href="https://www.facebook.com/StoetteforeningfynMMNSH"><i class="fa fa-facebook"></i></a></li>
+
+        <li><a href="https://www.linkedin.com/in/stoetteven/?fbclid=IwAR2PBmRZx5h2jnqC6chcprkK_TQvn_ddlXO8h40okcCWvnnMFhOpYlDdPDk"><i class="fa fa-linkedin-square"></i></a></li>
+
+      </ul>
+    </div>
+  </footer>
+ 
+
+</body>
+
+</html>
