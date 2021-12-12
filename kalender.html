@@ -1,34 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link  rel="stylesheet" href="style.css">
-        <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-      />
-        <title></title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        <title></title>
     </head>
     <body>
         <nav class="navbar">
             <ul class="nav-links">
                 <li class="active"> <a href="index.html">Forside</a></li>
-                <li> <a href="kalender.html">Kalander</a></li>
+                <li> <a href="kalender.html">Kalender</a></li>
                 <li> <a href="omos.html">Om os</a></li>
                 <li> <a href="kontakt.html">Kontakt os</a></li>
             </ul>
         </nav>
-        <header>
+        <header class="kalander">
             <div class="header-content">
-              <div class="row">
-                  <div class="col col-content">
-                    <span>Odense Højskoleforening</span>
-                    <h1>Fodrag, Sang & <br/> Fælleskab</h2>
-                    <a href="#" class="">Se vores fodrag</a>
-                  </div>
-                  <div class="col col-image">
-                   <img src="https://images.pexels.com/photos/9980077/pexels-photo-9980077.jpeg" alt="" />
-                  </div>
-              </div>
+                <h1 class="center-title">Kalander</h2>
             </div>
         </header>
         <section class="medlemskab">
@@ -38,33 +27,80 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nemo doloribus id quidem et quo dolore itaque vero tenetur nobis culpa delectus necessitatibus, aliquam officiis accusantium magni beatae repudiandae enim.</p>
            
                </div>
-               <div class="col">
+               <div class="col col-btn">
                 <div class="btn">Få medlemskab her</div>
                </div>
            </div>
-           
         </section>
-        <div class="calendar">
-            <div class="month">
-              <i class="fas fa-angle-left prev"></i>
-              <div class="date">
-                <h1></h1>
-                <p></p>
-              </div>
-              <i class="fas fa-angle-right next"></i>
+        <main class="main ">
+            <div class="main-content2 kalander">
+               
+<div class="calendar-container">
+    <div class="calendar-header">
+      <h1>
+         November
+      </h1>
+    </div>
+    <div class="calendar"><span class="day-name">Mon</span><span class="day-name">Tue</span><span class="day-name">Wed</span><span class="day-name">Thu</span><span class="day-name">Fri</span><span class="day-name">Sat</span><span class="day-name">Sun</span>
+      <div class="day day--disabled">30</div>
+      <div class="day day--disabled">31</div>
+      <div class="day">1</div>
+      <div class="day">2</div>
+      <div class="day">3</div>
+      <div class="day">4</div>
+      <div class="day">5</div>
+      <div class="day">6</div>
+      <div class="day">7</div>
+      <div class="day">8</div>
+      <div class="day">9</div>
+      <div class="day">10</div>
+      <div class="day">11</div>
+      <div class="day">12</div>
+      <div class="day">13</div>
+      <div class="day">14</div>
+      <div class="day">15</div>
+      <div class="day">16</div>
+      <div class="day">17</div>
+      <div class="day">18</div>
+      <div class="day">19</div>
+      <div class="day">20</div>
+      <div class="day">21</div>
+      <div class="day">22</div>
+      <div class="day">23</div>
+      <div class="day">24</div>
+      <div class="day">25</div>
+      <div class="day">26</div>
+      <div class="day">27</div>
+      <div class="day">28</div>
+      <div class="day">29</div>
+      <div class="day">30</div>
+      <div class="day">31</div>
+      <div class="day">1</div>
+      <div class="day">2</div>
+      <section class="task task--warning">Projects</section>
+      <section class="task task--danger">Design Sprint</section>
+      <section class="task task--primary">Product Checkup 1
+      </section>
+      <section class="task task--info">Product Checkup 2</section>
+    </div>
+  </div>
             </div>
-            <div class="weekdays">
-              <div>Sun</div>
-              <div>Mon</div>
-              <div>Tue</div>
-              <div>Wed</div>
-              <div>Thu</div>
-              <div>Fri</div>
-              <div>Sat</div>
+        </main>
+       
+        <footer>
+            <div class="row">
+                <div class="col col-info">
+                 <h2 class="text-white">Kontakt informationer</h2>
+                 <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nemo doloribus id quidem et quo dolore itaque vero tenetur nobis culpa delectus necessitatibus, aliquam officiis accusantium magni beatae repudiandae enim.</p>
+                </div>
+                <div class="col ">
+                  <div class="col-socialmedia">
+                      <a href="https://www.facebook.com/Odense-Højskoleforening-UCL-111801974668772"> <i class="fa fa-facebook-f fa-2x footer-icons"></i></a>
+                      <a href="#"> <i class="fa fa-instagram fa-2x footer-icons"></i></a>
+                      <a href="#"> <i class="fa fa-twitter fa-2x footer-icons"></i></a>
+                  </div>
+                </div>
             </div>
-            <div class="days"></div>
-          </div>
-        <footer></footer>
+        </footer>
     </body>
-    <script src="master.js"></script>
 </html>
