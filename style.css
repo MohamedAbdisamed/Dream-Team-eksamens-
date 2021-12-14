@@ -634,6 +634,20 @@ header.om-os, header.kontakt, header.kalander{
 .weekdays li, .days li {width: 12.5%;}
 .days li .active {padding: 2px;}
 }
+.calendar-content-btn{
+  display: flex; 
+  justify-content: space-between;
+}
+
+.calendar-content-btn button.btn-back, .calendar-content-btn button.btn-forward{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color:black;
+    font-weight: bold;
+}
 
 @media screen and (max-width: 290px) {
  /* body{
