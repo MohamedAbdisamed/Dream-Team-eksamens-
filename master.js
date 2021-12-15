@@ -49,7 +49,7 @@ const renderCalendar = () => {
   let days = "";
 
   for (let x = firstDayIndex; x > 0; x--) {
-    days += <div class="prev-date">${prevLastDay - x + 1}</div>;
+    days += `<div class="prev-date">${prevLastDay - x + 1}</div>`;
   }
 
   for (let i = 1; i <= lastDay; i++) {
@@ -57,9 +57,9 @@ const renderCalendar = () => {
       i === new Date().getDate() &&
       date.getMonth() === new Date().getMonth()
     ) {
-      days += <div class="today">${i}</div>;
+      days += `<div class="today">${i}</div>`;
     } else {
-      days += <div>${i}</div>;
+      days += `<div>${i}</div>`;
       console.log(i)
       if(i == 2){
        console.log('yes')
@@ -69,7 +69,7 @@ const renderCalendar = () => {
   }
 
   for (let j = 1; j <= nextDays; j++) {
-    days += <div class="next-date">${j}</div>;
+    days += `<div class="next-date">${j}</div>`;
     monthDays.innerHTML = days;
   }
 };
