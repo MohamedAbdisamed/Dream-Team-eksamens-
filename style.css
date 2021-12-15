@@ -19,6 +19,11 @@
     color: whitesmoke;
   }
   
+  #more {display: none;}
+  #btn2:hover {
+   cursor: pointer;
+  }
+
   ul{
     list-style: none;
   }
