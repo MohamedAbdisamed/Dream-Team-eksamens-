@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <div id="wrapper">
+        <aside>
+            <nav>
+                <ul id="navLinks">
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <article id="tekstliste">
+                <section>
+                    <h2>H1 overskrift</h2>
+                    <p>Denne knap er ment, som en hovdeknap og skal bruges sparsomt</p>
+                    <code>
+                        <p>HTML</p>
+                        <span>&lth1&gt;</span>Tekst<span>&lt/h1&gt;</span>
+                    </code>
+                    <p class="small">h1 overskrift, den største overskrift</p>
+
+                    <code>
+                        <p>CSS</p>
+                        <div class="csscode">
+                            <span class="c">.h1 </span> {
+                            font-size: 70px;
+                            color: #fff;
+                        }
+                        </div>
+                        <div class="csscode">
+                            <span class="c">.button-main:hover </span> {
+                            cursor: pointer;
+                            background-color: #be316e;
+                        }
+                        </div>
+                    </code>
+
+                    <div class="visual visual--darker">
+                        <h3>Visualisering</h3>
+                        <h1>Din tekst her</h1>
+                    </div>
+                </section>
+            </article>
+
+            <article id="knapliste">
+                <section>
+                    <h2>Primære knap</h2>
+                    <p>Denne knap er ment, som en sekundær knap og skal bruges til sekundære funktioner</p>
+                    <code>
+                        <p>HTML</p>
+                        <span>&ltbutton class="<span class="c">button-style</span>"&gt;</span>Tekst<span>&lt/button&gt;</span>
+                    </code>
+                    <p class="small">Denner verison af knappen bliver brugt udelukkende i form</p>
+
+                    <code>
+                        <p>HTML</p>
+                        <span>&lta class="<span class="c">button-style</span>" href="<span class="c">#</span>"&gt;</span>Tekst<span>&lt/a&gt;</span>
+                    </code>
+                    <p class="small">Denne version af knappen, bruges alle andre steder</p>
+
+                    <code>
+                        <p>CSS</p>
+                        <div class="csscode">
+                            <span class="c">.button-main </span> {
+                            width: auto;
+                            height: 70px;
+                            color: #ffffffff;
+                            font-size: 30px;
+                            font-weight: 700;
+                            background-color: #E05390;
+                            border: 0px;
+                            border-radius: 50px;
+                            outline: none;
+                            box-shadow: none;
+                            padding: 0 50px;
+                        }
+                        </div>
+                        <div class="csscode">
+                            <span class="c">.button-main:hover </span> {
+                            cursor: pointer;
+                            background-color: #be316e;
+                        }
+                        </div>
+                    </code>
+
+                    <div class="visual">
+                        <h3>Visualisering</h3>
+                        <button class="button-main">Din tekst her</button>
+                    </div>
+                </section>
+
+                <section>
+                    <h2>Sekundær knap</h2>
+                    <p>Denne knap er ment, som en hovdeknap og skal bruges sparsomt</p>
+                    <code>
+                        <p>HTML</p>
+                        <span>&ltbutton class="<span class="c">button-style button-main--secoundary</span>"&gt;</span>Tekst<span>&lt/button&gt;</span>
+                    </code>
+                    <p class="small">Denner verison af knappen bliver brugt udelukkende i form</p>
+
+                    <code>
+                        <p>HTML</p>
+                        <span>&lta class="<span class="c">button-style button-main--secoundary</span>" href="<span class="c">#</span>"&gt;</span>Tekst<span>&lt/a&gt;</span>
+                    </code>
+                    <p class="small">Denne version af knappen, bruges alle andre steder</p>
+
+                    <code>
+                        <p>CSS</p>
+                        <div class="csscode">
+                            <span class="c">.button-main--secoundary </span> {
+                            color: #E05390;
+                            background-color: #fff;
+                            border: 3px solid #E05390;
+                        }
+                        </div>
+                        <div class="csscode">
+                            <span class="c">.button-main--secoundary:hover </span> {
+                            cursor: pointer;
+                            color: #fff;
+                            background-color: #E05390;
+                        }
+                        </div>
+                    </code>
+
+                    <div class="visual">
+                        <h3>Visualisering</h3>
+                        <button class="button-main button-main--secoundary">Din tekst her</button>
+                    </div>
+                </section>
+            </article>
+
+            <article id="billedeliste">
+                test2
+            </article>
+
+            <article id="modulliste">
+                test3
+            </article>
+        </main>
+    </div>
+</body>
+</html>
